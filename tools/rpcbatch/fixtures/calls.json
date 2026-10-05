@@ -1,0 +1,18 @@
+[
+  {"key": "c01", "method": "getBalance", "params": ["9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"]},
+  {"key": "c02", "method": "getSlot", "params": []},
+  {"key": "c03", "method": "getVersion", "params": []},
+  {"key": "c04", "method": "getBalance", "params": ["9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"]},
+  {"key": "c05", "method": "getBalance", "params": ["3xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"]},
+  {"key": "c06", "method": "getAccountInfo", "params": [{"commitment": "recent", "encoding": "json"}]},
+  {"key": "c07", "method": "getAccountInfo", "params": [{"encoding": "json", "commitment": "recent"}]},
+  {"key": "c08", "method": "getTransactionCount", "params": []},
+  {"key": "c09", "method": "getSlot"},
+  {"key": "c10", "method": "getEpochInfo", "params": []},
+  {"key": "c11", "method": "getBalance", "params": ["9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin", {"commitment": "finalized"}]},
+  {"key": "c12", "method": "getBlockTime", "params": [142]},
+  {"key": "c13", "method": "getHealth", "params": []},
+  {"key": "c14", "method": "getMultipleAccounts", "params": [["9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin", "3xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"]]},
+  {"key": "c15", "method": "getVersion", "params": []},
+  {"key": "c16", "method": "getBlockTime", "params": [142]}
+]

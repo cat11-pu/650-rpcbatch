@@ -1,0 +1,23 @@
+{
+  "order": "desc",
+  "replies": [
+    {"id": 1, "seen": 1, "result": {"context": {"slot": 142}, "value": 5000}},
+    {"id": 2, "seen": 1, "result": 142},
+    {"id": 3, "seen": 1, "omit": true},
+    {"id": 3, "seen": 2, "omit": true},
+    {"id": 3, "seen": 3, "omit": true},
+    {"id": 4, "seen": 1, "error": {"code": -32602, "message": "Invalid params"}},
+    {"id": 4, "seen": 2, "result": {"context": {"slot": 142}, "value": 700}},
+    {"id": 5, "seen": 1, "result": {"context": {"slot": 142}, "value": {"data": ["", "base64"], "executable": false, "lamports": 1000, "owner": "SysvarRent111111111111111111111111111111111", "rentEpoch": 0}}},
+    {"id": 6, "seen": 1, "result": 987654},
+    {"id": 7, "seen": 1, "error": {"code": -32005, "message": "Node is behind by 1 slots"}},
+    {"id": 7, "seen": 2, "error": {"code": -32005, "message": "Node is behind by 1 slots"}},
+    {"id": 7, "seen": 3, "error": {"code": -32005, "message": "Node is behind by 1 slots"}},
+    {"id": 8, "seen": 1, "result": {"context": {"slot": 142}, "value": 5000}},
+    {"id": 9, "seen": 1, "result": 1700000000},
+    {"id": 10, "seen": 1, "result": {"status": "ok"}},
+    {"id": 10, "seen": 2, "result": {"status": "ok"}},
+    {"id": 10, "seen": 3, "result": {"status": "ok"}},
+    {"id": 11, "seen": 1, "result": {"context": {"slot": 142}, "value": [{"data": ["", "base64"], "executable": false, "lamports": 5000, "owner": "SysvarRent111111111111111111111111111111111", "rentEpoch": 0}, {"data": ["", "base64"], "executable": false, "lamports": 700, "owner": "SysvarRent111111111111111111111111111111111", "rentEpoch": 0}]}}
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "host": "http://rpc.solana.test:8899",
+  "batch_limit": 4,
+  "max_attempts": 3
+}
